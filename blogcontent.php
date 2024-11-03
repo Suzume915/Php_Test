@@ -203,3 +203,83 @@ Creative Coder page မှာလည်း Interview နဲ့ပတ်သက်�
 
 
 Interview pass ကြပါစေလို့လည်း ဆုတောင်းပေးလိုက်ရပါတယ်။";
+
+$content_six = "Programming နယ်ပယ်မှာ ခဏခဏ ကြားဖူးနေကြဖြစ်တဲ့ Deep Copy နဲ့ Shallow Copy ကဘာကွာလဲ‌ဆိုတာ ကြည့်လိုက်ရအောင် 👀
+
+
+
+သူတို့ကို object တွေ create လုပ်တဲ့နေရာမှာအသုံးပြုကြပြီး ကိုယ့်ရဲ့ code behavior ကို သိနိုင်ပါတယ်။
+
+
+
+📝 Shallow Copy ဆိုတာကတော့ original object ကို reference ယူပြီး ဖန်တီးထားတဲ့ object အသစ်ပဲဖြစ်ပါတယ်။ တကယ်လို့ original object မှာ အပြောင်းအလဲရှိမယ်ဆိုရင် copy ထားတဲ့ object မှာပဲ reflect ဖြစ်မှာဖြစ်ပါတယ်။
+
+
+
+📝 Deep Copy ဆိုတာကတော့ object အသစ်တစ်ခုဖန်တီးထား‌တာဖြစ်ပြီး အရင် object က content တွေ nested object တွေကိုပါ တစ်ခါတည်းဖန်တီးလိုက်တာဖြစ်ပါတယ်။ original object တွေမှာအပြောင်းအလဲလုပ်လိုက်ရင် copy object မှာ ပြောင်းလဲသွားမှာမဟုတ်ပါဘူး။ ဒါကြောင့် အသစ်ဖန်တီးလိုက်တဲ့ object က independent ဖြစ်ပါတယ်။
+
+
+
+Code example အနေနဲ့ 
+
+
+
+import copy
+
+
+
+# Create a list of lists
+
+original_list = [[1, 2], [3, 4]]
+
+
+
+# Shallow copy
+
+shallow_copy = original_list.copy()
+
+
+
+# Deep copy
+
+deep_copy = copy.deepcopy(original_list)
+
+
+
+# Modify the original list
+
+original_list[0][0]   
+
+ = 5
+
+
+
+print(\"Original list:\", original_list)
+
+print(\"Shallow copy:\", shallow_copy)
+
+print(\"Deep copy:\", deep_copy)
+
+
+
+ဒီ code လေးရဲ့ output ကိုကြည့်မယ်ဆိုရင်တော့ 
+
+
+
+Original list: [[5, 2], [3, 4]]
+
+Shallow copy: [[5, 2], [3, 4]]
+
+Deep copy: [[1, 2], [3, 4]]
+
+
+
+Original list နဲ့ Shallow Copy ကတူနေမှာဖြစ်ပြီး Deep copy ကသာ list အသစ်အနေနဲ့ထွက်လာမှာဖြစ်ပါတယ်။
+
+
+
+ဒါဆိုရင် Deep Copy နဲ့ Shallow Copy အကြောင်းရှင်းသွားလောက်ပြီထင်ပါတယ်။
+
+
+
+နောက် content တွေမှာပြန်တွေ့ကြမယ်နော် 👀";

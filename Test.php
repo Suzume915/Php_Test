@@ -16,6 +16,7 @@ $second = "Fixed Value တွေအတွက်အသုံးပြုတဲ့
 $third = "Flutter ကိုအခမဲ့ လေ့လာကြရအောင်";
 $fourth = "Polymorphism in OOP";
 $five = "Developer Interview အတွက်ဘာတွေသိထားသင့်လဲ ? 👀";
+$six = "Deep Copy VS Shallow Copy";
 
 $blog =[ 
     
@@ -64,6 +65,16 @@ $blog =[
             "image"=>"DevInterview.jpeg",
             "uploaded"=>"25 days ago",
             "content"=>$content_five,
+            "reading duration"=>"2 minute read",
+            "category"=>"Knowledge sharing",
+            "Section"=>"Blogs & Tricks",
+            "Page"=>"creativecodermm.com"
+        ],
+        [ 
+            "Title"=>$six,
+            "image"=>"DeepCopy&ShallowCopy.jpg",
+            "uploaded"=>"25 days ago",
+            "content"=>$content_six,
             "reading duration"=>"2 minute read",
             "category"=>"Knowledge sharing",
             "Section"=>"Blogs & Tricks",
