@@ -22,7 +22,7 @@ $blog =[
     
        [ 
         "Title"=>$first,
-        "image"=>"React.jpeg",
+        "image"=>"React.jgp",
         "uploaded"=>"3 days ago",
         "content"=>$content_one,
         "reading duration"=>"2 minute read",
@@ -32,7 +32,7 @@ $blog =[
         ],
         [ 
         "Title"=>$second,
-        "image"=>"Fixed_value.jpeg",
+        "image"=>"Fixed_value.jgp",
         "uploaded"=>"17 days ago",
         "content"=>$content_two,
         "reading duration"=>"2 minute read",
@@ -42,7 +42,7 @@ $blog =[
         ],
         [ 
         "Title"=>$third,
-        "image"=>"Flutter.jpeg",
+        "image"=>"Flutter.jgp",
         "uploaded"=>"22 days ago",
         "content"=>$content_three,
         "reading duration"=>"2 minute read",
@@ -52,7 +52,7 @@ $blog =[
         ],
         [ 
         "Title"=>$fourth,
-        "image"=>"Polymorphism.jpeg",
+        "image"=>"Polymorphism.jgp",
         "uploaded"=>"24 days ago",
         "content"=>$content_four,
         "reading duration"=>"2 minute read",
@@ -62,7 +62,7 @@ $blog =[
         ],
         [ 
             "Title"=>$five,
-            "image"=>"DevInterview.jpeg",
+            "image"=>"DevInterview.jgp",
             "uploaded"=>"25 days ago",
             "content"=>$content_five,
             "reading duration"=>"2 minute read",
