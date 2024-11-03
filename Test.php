@@ -88,7 +88,7 @@ $blog =[
 
         
         <ul>
-
+        <div style = "width:800px;align-items:center;justify-content:center;">
         <h2><?=  $b["Title"] ?></h2>
         <pre>
         <li>Image_source - <?=$b["image"] ?></li>
@@ -98,6 +98,7 @@ $blog =[
         <li>Section - <?= $b["Section"] ?></li>
         <li>Page - <?= $b["Page"] ?></li></pre>
         <li>    <p><?= $b["content"] ?></p></li>
+        </div>
         <hr>
         
     <?php endforeach; ?>
@@ -105,6 +106,6 @@ $blog =[
 
         </ul>
 
-?>
+
 </body>
 </html>
