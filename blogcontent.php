@@ -11,11 +11,11 @@ React ကိုအရင် import လုပ်ပြီး reusable button comp
 
 const Button = ({ label, onClick }) => {
 
-  return (\n
+  return (
 
-    <button onClick=\"{onClick}\">\n
+    <button onClick={onClick}>
 
-      {label}\n
+      {label}
 
     </button>
 
